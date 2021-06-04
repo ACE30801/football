@@ -20,7 +20,7 @@ body {
   
   .navbar a:hover:not(.active),  .nav li a:hover:not(.active) {
     background-color: #555;
-    color: #E41B17;
+    color: #E41B18;
   }
 
   .active {
