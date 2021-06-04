@@ -10,7 +10,7 @@ body {
   
   .navbar a {
     color: white;
-    padding: 14px 30px;
+    padding: 2vw 2.5vw;
     overflow: hidden;
     text-decoration: none;
     /*margin: auto;*/
@@ -18,13 +18,14 @@ body {
     border-right: solid white 1px;
   }
   
-  .navbar a:hover:not(.active),  li a:hover:not(.active) {
+  .navbar a:hover:not(.active),  .nav li a:hover:not(.active) {
     background-color: #555;
     color: #E41B17;
   }
 
   .active {
     background-color: #2554c7;
+    padding-left: 10vw;
   }
 
   .li1 li{
@@ -32,18 +33,18 @@ body {
   }
   
   
-  ul {
+  .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
+    width: 25vw;
     background-color: #000;
     position: fixed;
     height: 100%;
     overflow: auto;
   }
   
-  li a {
+  .nav li a {
     display: block;
     color: white;
     padding: 8px 16px;
@@ -51,7 +52,7 @@ body {
     border-bottom: solid white 1px;
   }
   
-  li a.active {
+  .nav li a.active {
     background-color: #04AA6D;
     color: white;
   }
