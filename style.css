@@ -1,8 +1,24 @@
 body {
     margin: 0;
     font-size: 2vw;
+    color:#fcfcfe;
   }
-
+.maindiv1{
+  margin-left:25%;
+  padding:1px 16px;
+  width: auto;
+  height:auto;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  }
+  .BG1{
+    background-image:url(index_img/BG1.jpg);
+  }
+  .BG2{
+    background-image:url(BG2.jpg); 
+  }
+  
   .navbar {
     display: flex;
     flex-direction: row-reverse;
@@ -11,12 +27,12 @@ body {
   
   .navbar a {
     color: white;
-    padding: 2vw 2.5vw;
+    padding: 2vw 3.5vw;
     overflow: hidden;
     text-decoration: none;
     /*margin: auto;*/
     text-align: center;
-    border-right: solid white 1px;
+    border-left: solid white 1px;
   }
   
   .navbar a:hover:not(.active),  .nav li a:hover:not(.active) {
@@ -89,3 +105,124 @@ img#AVimg{
   width: 100%;
     float: none;
 }
+
+.teams{
+  display: flex;
+flex-wrap: wrap;
+align-items: flex-end;
+}
+.teams>div{
+margin: 5px;
+width: 30%;
+height: auto;
+text-align:center;
+border: blanchedalmond 1px solid;
+}
+.teams img{
+  width: 80%;
+  height: auto;
+  background: none;
+
+}
+
+.teamdisc1{
+  background-color: #f61717ca;
+  margin:0px ;
+}
+.teamdisc2{
+  background-color: #8c2419ca;
+  margin:0px ;
+}
+.teamdisc3{
+  background-color: #38ACECca;
+  margin:0px ;
+}
+
+.teamdisc4{
+  background-color: #9c2a1eca;
+  margin:0px ;
+}
+
+.teamdisc5{
+  background-color: #1d44a6ca;
+  margin:0px ;
+}
+
+.teamdisc6{
+  background-color: #446bccca;
+  margin:0px ;
+}
+
+.teamdisc7{
+  background-color: #164accca;
+  margin:0px ;
+}
+
+.teamdisc8{
+  background-color: #f0f0f5ca;
+  color: #000;
+  margin:0px ;
+}
+
+.teamdisc9{
+  background-color: #eeff07ca;
+  color: #000;
+  margin:0px ;
+}
+
+.teamdisc10{
+  background-color: #4451deca;
+  color: #000;
+  margin:0px ;
+}
+
+.teamdisc11{
+  background-color: #c23934ca;
+  margin:0px ;
+}
+
+.teamdisc12{
+  background-color: #1d8dd3ca;
+  margin:0px ;
+}
+
+.teamdisc13{
+  background-color: #ff1010ca;
+  margin:0px ;
+}
+
+.teamdisc14{
+  background-color: #302e2eca;
+  margin:0px ;
+}
+
+.teamdisc15{
+  background-color: #eb1e1eca;
+  margin:0px ;
+}
+.teamdisc16{
+  background-color: #eb1e1eca;
+  margin:0px ;
+}
+.teamdisc17{
+  background-color: #f7f3f3ca;
+  color: #000;
+  margin:0px ;
+}
+
+.teamdisc18{
+  background-color: #ddd9d9ca;
+  color: #000;
+  margin:0px ;
+}
+
+.teamdisc19{
+  background-color: #902121ca;
+  margin:0px ;
+}
+
+.teamdisc20{
+  background-color: #FBB917ca	;
+  margin:0px ;
+}
+
