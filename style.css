@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 2vw;
   }
 
   .navbar {
@@ -57,5 +58,34 @@ body {
     color: white;
   }
   
+.goal{
+  width: 100%;
+  height: auto;
+}
 
-  
+#COF img, #COF p{
+  display: block;
+}
+#COF img{
+  width: 50%;
+  height: auto;
+  float: right;
+}
+
+#history img{
+  float: right;
+  width: 30%;
+  height: auto;
+}
+
+#history .medimg{
+  width: 50%;
+}
+#history .Banimg{
+  width: 40%;
+}
+
+img#AVimg{
+  width: 100%;
+    float: none;
+}
