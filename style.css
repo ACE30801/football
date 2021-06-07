@@ -21,6 +21,9 @@ body {
   .BG3{
     background-image:url(BG3.png); 
   }
+  .BG4{
+    background-image:url(BG4.jpg); 
+  }
   a{
     text-decoration: none;
     color: #fff;
@@ -323,3 +326,90 @@ border: blanchedalmond 1px solid;
   margin:0px ;
 }
 
+
+.teamdiscB1{
+  background-color: #ffffffb2;
+  margin:0px ;
+}
+.teamdiscB2{
+  background-color: #cc0000ca;
+  margin:0px ;
+}
+.teamdiscB3{
+  background-color: #2E2B54ca;
+  margin:0px ;
+}
+
+.teamdiscB4{
+  background-color: #cd1719ca;
+  margin:0px ;
+}
+
+.teamdiscB5{
+  background-color: #ff0000ca;
+  margin:0px ;
+}
+
+.teamdiscB6{
+  background-image: linear-gradient(to right,#dc052cFF,#bf253100);;
+  margin:0px ;
+}
+
+.teamdiscB7{
+  background-color: #ffe600ca;
+  margin:0px ;
+}
+
+.teamdiscB8{
+  background-color: #000000ca;
+  margin:0px ;
+  border-color: #7ab929;
+}
+
+.teamdiscB9{
+  background-color: #1b1a19ca;
+  margin:0px ;
+}
+
+.teamdiscB10{
+  background-color: #e40521ca;
+  margin:0px ;
+}
+
+.teamdiscB11{
+  background-color: #007affca;
+  margin:0px ;
+}
+
+.teamdiscB12{
+  background-color: #00305bca;
+  margin:0px ;
+}
+
+.teamdiscB13{
+  background-color: #dd013fca;
+  margin:0px ;
+}
+
+.teamdiscB14{
+  background-color: #004b9cca;
+  margin:0px ;
+}
+
+.teamdiscB15{
+  background-color: #3d3d3dca;
+  margin:0px ;
+}
+.teamdiscB16{
+  background-color: #e30613ca;
+  margin:0px ;
+}
+.teamdiscB17{
+  background-color: #64b42dca;
+  margin:0px ;
+}
+
+.teamdiscB18{
+  background-color: #007642ca;
+  margin:0px ;
+}
