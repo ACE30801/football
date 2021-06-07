@@ -18,7 +18,13 @@ body {
   .BG2{
     background-image:url(BG2.jpg); 
   }
-  
+  .BG3{
+    background-image:url(BG3.png); 
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
   .navbar {
     display: flex;
     flex-direction: row-reverse;
@@ -160,19 +166,16 @@ border: blanchedalmond 1px solid;
 
 .teamdisc8{
   background-color: #ffffffca;
-  color: #000;
   margin:0px ;
 }
 
 .teamdisc9{
   background-color: #AC944Dca;
-  color: #1d4189;
   margin:0px ;
 }
 
 .teamdisc10{
   background-color: #0b56a4ca;
-  color: #000;
   margin:0px ;
 }
 
@@ -206,13 +209,11 @@ border: blanchedalmond 1px solid;
 }
 .teamdisc17{
   background-color: #ffffffca;
-  color: #000;
   margin:0px ;
 }
 
 .teamdisc18{
   background-color: #002f68ca;
-  color: #000;
   margin:0px ;
 }
 
@@ -223,6 +224,102 @@ border: blanchedalmond 1px solid;
 
 .teamdisc20{
   background-color: #fdb913ca	;
+  margin:0px ;
+}
+
+.teamdiscC1{
+  background-color: #0067b2ca;
+  margin:0px ;
+}
+.teamdiscC2{
+  background-color: #bf0e1aca;
+  margin:0px ;
+}
+.teamdiscC3{
+  background-color: #2E2B54ca;
+  margin:0px ;
+}
+
+.teamdiscC4{
+  background-color: #ca2330ca;
+  margin:0px ;
+}
+
+.teamdiscC5{
+  background-color: #003355ca;
+  margin:0px ;
+}
+
+.teamdiscC6{
+  background-color: rgba(95, 37, 159,0.7);
+  margin:0px ;
+}
+
+.teamdiscC7{
+  background-color: #ad1918ca;
+  margin:0px ;
+}
+
+.teamdiscC8{
+  background-color: #002f6cca;
+  margin:0px ;
+}
+
+.teamdiscC9{
+  background-color: #001ea0ca;
+  margin:0px ;
+}
+
+.teamdiscC10{
+  background-color: #1a1a1aca;
+  margin:0px ;
+}
+
+.teamdiscC11{
+  background-color: #011f3bca;
+  margin:0px ;
+}
+
+.teamdiscC12{
+  background-color: rgba(213, 0, 0, 0.7);
+  margin:0px ;
+}
+
+.teamdiscC13{
+  background-color: #052f59ca;
+  margin:0px ;
+}
+
+.teamdiscC14{
+  background-color: #1a223eca;
+  margin:0px ;
+}
+
+.teamdiscC15{
+  background-color: #990a2cca;
+  margin:0px ;
+}
+.teamdiscC16{
+  background-color: #014896ca;
+  margin:0px ;
+}
+.teamdiscC17{
+  background-color: #0fa653ca;
+  margin:0px ;
+}
+
+.teamdiscC18{
+  background-color: #1c1c1eca;
+  margin:0px ;
+}
+
+.teamdiscC19{
+  background-color: #481418ca;
+  margin:0px ;
+}
+
+.teamdiscC20{
+  background-color: #000000ca	;
   margin:0px ;
 }
 
