@@ -4,7 +4,6 @@ body {
     color:#fcfcfe;
   }
 .maindiv1{
-  margin-left:25%;
   padding:1px 16px;
   width: auto;
   height:auto;
@@ -24,7 +23,10 @@ body {
   .BG4{
     background-image:url(BG4.jpg); 
   }
-  a{
+  .BG5{
+    background-image:url(BG5.jpg);
+  }
+  .teams a{
     text-decoration: none;
     color: #fff;
   }
@@ -230,6 +232,40 @@ border: blanchedalmond 1px solid;
   margin:0px ;
 }
 
+
+#legends {
+  border: 1px white solid;
+  width: 80%;
+margin-left:10%;
+}
+
+#legends th,#legends td {
+  text-align: left;
+  padding: 8px;
+}
+
+#legends tr:nth-child(even) {background-color: #f2f2f2;}
+
+#legends table tr td img{border-radius:75 !important;}
+
+
+
+
+#legends a:link,#legends a:visited {
+ 
+  color:blue;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#legends a:hover,#legends a:active {
+  background-color: red;
+}
+
+
+
 .teamdiscC1{
   background-color: #0067b2ca;
   margin:0px ;
@@ -413,3 +449,201 @@ border: blanchedalmond 1px solid;
   background-color: #007642ca;
   margin:0px ;
 }
+
+.teamdiscS1{
+  background-color: #ffffffca;
+border:2px solid black;
+  margin:0px ;
+}
+.teamdiscS2{
+  background-color: #c63527ca;
+  margin:0px ;
+}
+.teamdiscS3{
+  background-color:  #b4001dca;
+  margin:0px ;
+}
+
+.teamdiscS4{
+  background-color:  #010532ca;
+  margin:0px ;
+}
+
+.teamdiscS5{
+  background: linear-gradient(to right,#053e8fca,#0164b7ca);
+  margin:0px ;
+}
+
+.teamdiscS6{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS7{
+  background-color: #181733ca;
+  margin:0px ;
+}
+
+.teamdiscS8{
+  background: rgba(2,139,255,1);
+  margin:0px ;
+}
+
+.teamdiscS9{
+  background-color: #c9002bca;
+  margin:0px ;
+}
+
+.teamdiscS10{
+  background-color: #0b2049ca;
+  margin:0px ;
+}
+
+.teamdiscS11{
+  background-color:  #6cace4ca;
+  margin:0px ;
+}
+
+.teamdiscS12{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS13{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS14{
+  background-color:#ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS15{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+.teamdiscS16{
+  background-color: #dc1e1eca;
+  margin:0px ;
+}
+.teamdiscS17{
+  background-color:  #13324fca;
+  margin:0px ;
+}
+
+.teamdiscS18{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS19{
+  background-color: #000000ca;
+  margin:0px ;
+}
+
+.teamdiscS20{
+  background-color: #ffe715ca  ;
+  margin:0px ;
+}
+.teamdiscS1{
+  background-color: #ffffffca;
+border:2px solid black;
+  margin:0px ;
+}
+.teamdiscS2{
+  background-color: #c63527ca;
+  margin:0px ;
+}
+.teamdiscS3{
+  background-color:  #b4001dca;
+  margin:0px ;
+}
+
+.teamdiscS4{
+  background-color:  #010532ca;
+  margin:0px ;
+}
+
+.teamdiscS5{
+  background: linear-gradient(to right,#053e8fca,#0164b7ca);
+  margin:0px ;
+}
+
+.teamdiscS6{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS7{
+  background: linear-gradient(90deg,#cd122dca 0,#154284ca);
+  margin:0px ;
+}
+
+.teamdiscS8{
+  background: rgba(2,139,255,0.7);
+  margin:0px ;
+}
+
+.teamdiscS9{
+  background-color: #c9002bca;
+  margin:0px ;
+}
+
+.teamdiscS10{
+  background-color: #0b2049ca;
+  margin:0px ;
+}
+
+.teamdiscS11{
+  background-color:  #6cace4ca;
+  margin:0px ;
+}
+
+.teamdiscS12{
+  background-color: #009655ca;
+  margin:0px ;
+}
+
+.teamdiscS13{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS14{
+  background-color: #0058b1ca;
+  margin:0px ;
+}
+
+.teamdiscS15{
+  background-color: #63257fca;
+  margin:0px ;
+}
+.teamdiscS16{
+  background-color: #dc1e1eca;
+  margin:0px ;
+}
+.teamdiscS17{
+  background-color:  #13324fca;
+  margin:0px ;
+}
+
+.teamdiscS18{
+  background-color: #ffffffca;
+  margin:0px ;
+}
+
+.teamdiscS19{
+  background-color: #000000ca;
+  margin:0px ;
+}
+
+.teamdiscS20{
+  background-color: #ffe715ca  ;
+  margin:0px ;
+}
+
+
+
+
+
