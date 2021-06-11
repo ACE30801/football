@@ -30,620 +30,642 @@ body {
     text-decoration: none;
     color: #fff;
   }
-  .navbar {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #111;
+  
+  .active1{
+    background-color: rgb(13, 103, 20);
   }
   
-  .navbar a {
-    color: white;
-    padding: 2vw 3.5vw;
-    overflow: hidden;
-    text-decoration: none;
-    /*margin: auto;*/
-    text-align: center;
-    border-left: solid white 1px;
+  
+  .active2{
+    background-image: linear-gradient(to bottom right,#37003c,#ff2882 );
   }
   
-  .navbar a:hover:not(.active),  .nav li a:hover:not(.active) {
-    background-color: #555;
-    color: #E41B18;
-  }
-
-  .active {
-    background-color: #2554c7;
-    padding-left: 10vw;
-  }
-
-  .li1 li{
-      padding: 3px;
+ 
+  .active3{
+    background-image: linear-gradient(to bottom right, #00197d,#000 );
   }
   
+  
+  .active4{
+    background-image: linear-gradient(to bottom right,rgb(205, 23, 25), #e5e5e5 );
+  }
+  
+  
+  .active5{
+    background-image: linear-gradient(to bottom right,#007aff,rgb(37, 40, 42));
+  }
   
   .nav {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25vw;
-    background-color: #000;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+    overflow: hidden;
+    background-color: #333;
   }
   
-  .nav li a {
-    display: block;
+  .nav li {
+    float: left;
+  }
+  .nav li a, .dbtn {
+    display: inline-block;
     color: white;
-    padding: 8px 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    border-bottom: solid white 1px;
+  }
+  .nav li a:hover :not(.active1), .d:hover .dbtn :not(.active1){
+    background-color: #000;
+  }
+  li.d {
+    display: inline-block;
+  }
+  .dc {
+    display: none;
+    position: absolute;
+     background-image: linear-gradient(to bottom right,#ffffffca,#333333ca );
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dc a {
+    color: black !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dc a:hover { background-image: linear-gradient(to bottom right,#333333ca,#ffffffca );}
+  .d:hover .dc {
+    display: block;
   }
   
-  .nav li a.active {
-    background-color: #04AA6D;
-    color: white;
+  .goal{
+    width: 100%;
+    height: auto;
   }
   
-.goal{
-  width: 100%;
-  height: auto;
-}
-
-#COF img, #COF p{
-  display: block;
-}
-#COF img{
-  width: 50%;
-  height: auto;
-  float: right;
-}
-
-#history img{
-  float: right;
+  #COF img, #COF p{
+    display: block;
+  }
+  #COF img{
+    width: 50%;
+    height: auto;
+    float: right;
+  }
+  
+  #history img{
+    float: right;
+    width: 30%;
+    height: auto;
+  }
+  
+  #history .medimg{
+    width: 50%;
+  }
+  #history .Banimg{
+    width: 40%;
+  }
+  
+  img#AVimg{
+    width: 100%;
+      float: none;
+  }
+  
+  .teams{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  }
+  .teams>div{
+  margin: 5px;
   width: 30%;
   height: auto;
-}
-
-#history .medimg{
-  width: 50%;
-}
-#history .Banimg{
-  width: 40%;
-}
-
-img#AVimg{
-  width: 100%;
-    float: none;
-}
-
-.teams{
-  display: flex;
-flex-wrap: wrap;
-align-items: flex-end;
-}
-.teams>div{
-margin: 5px;
-width: 30%;
-height: auto;
-text-align:center;
-border: blanchedalmond 1px solid;
-}
-.teams img{
-  width: 80%;
-  height: auto;
-  background: none;
-
-}
-
-.teamdisc1{
-  background-color: #f61717ca;
-  margin:0px ;
-}
-.teamdisc2{
-  background-color: #8c2419ca;
-  margin:0px ;
-}
-.teamdisc3{
-  background-color: #0054a6ca;
-  margin:0px ;
-}
-
-.teamdisc4{
-  background-color: #81204cca;
-  margin:0px ;
-}
-
-.teamdisc5{
-  background-color: #001489ca;
-  margin:0px ;
-}
-
-.teamdisc6{
-  background-color: #0055a595;
-  margin:0px ;
-}
-
-.teamdisc7{
-  background-color: #00369cca;
-  margin:0px ;
-}
-
-.teamdisc8{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdisc9{
-  background-color: #AC944Dca;
-  margin:0px ;
-}
-
-.teamdisc10{
-  background-color: #0b56a4ca;
-  margin:0px ;
-}
-
-.teamdisc11{
-  background-color: #e31b23ca;
-  margin:0px ;
-}
-
-.teamdisc12{
-  background-color: #98c5e9ca;
-  margin:0px ;
-}
-
-.teamdisc13{
-  background-color: #c70101ca;
-  margin:0px ;
-}
-
-.teamdisc14{
-  background-color: #231f20ca;
-  margin:0px ;
-}
-
-.teamdisc15{
-  background-color: #e30613ca;
-  margin:0px ;
-}
-.teamdisc16{
-  background-color: #1f1f1fca;
-  margin:0px ;
-}
-.teamdisc17{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdisc18{
-  background-color: #002f68ca;
-  margin:0px ;
-}
-
-.teamdisc19{
-  background-color: #66192cca;
-  margin:0px ;
-}
-
-.teamdisc20{
-  background-color: #fdb913ca	;
-  margin:0px ;
-}
-
-
-#legends {
-  border: 1px white solid;
-  width: 80%;
-margin-left:10%;
-}
-
-#legends th,#legends td {
-  text-align: left;
-  padding: 8px;
-}
-
-#legends tr:nth-child(even) {background-color: #f2f2f2;}
-
-#legends table tr td img{border-radius:75 !important;}
-
-
-
-
-#legends a:link,#legends a:visited {
- 
-  color:blue;
- 
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-#legends a:hover,#legends a:active {
-  background-color: red;
-}
-
-
-
-.teamdiscC1{
-  background-color: #0067b2ca;
-  margin:0px ;
-}
-.teamdiscC2{
-  background-color: #bf0e1aca;
-  margin:0px ;
-}
-.teamdiscC3{
-  background-color: #2E2B54ca;
-  margin:0px ;
-}
-
-.teamdiscC4{
-  background-color: #ca2330ca;
-  margin:0px ;
-}
-
-.teamdiscC5{
-  background-color: #003355ca;
-  margin:0px ;
-}
-
-.teamdiscC6{
-  background-color: rgba(95, 37, 159,0.7);
-  margin:0px ;
-}
-
-.teamdiscC7{
-  background-color: #ad1918ca;
-  margin:0px ;
-}
-
-.teamdiscC8{
-  background-color: #002f6cca;
-  margin:0px ;
-}
-
-.teamdiscC9{
-  background-color: #001ea0ca;
-  margin:0px ;
-}
-
-.teamdiscC10{
-  background-color: #1a1a1aca;
-  margin:0px ;
-}
-
-.teamdiscC11{
-  background-color: #011f3bca;
-  margin:0px ;
-}
-
-.teamdiscC12{
-  background-color: rgba(213, 0, 0, 0.7);
-  margin:0px ;
-}
-
-.teamdiscC13{
-  background-color: #052f59ca;
-  margin:0px ;
-}
-
-.teamdiscC14{
-  background-color: #1a223eca;
-  margin:0px ;
-}
-
-.teamdiscC15{
-  background-color: #990a2cca;
-  margin:0px ;
-}
-.teamdiscC16{
-  background-color: #014896ca;
-  margin:0px ;
-}
-.teamdiscC17{
-  background-color: #0fa653ca;
-  margin:0px ;
-}
-
-.teamdiscC18{
-  background-color: #1c1c1eca;
-  margin:0px ;
-}
-
-.teamdiscC19{
-  background-color: #481418ca;
-  margin:0px ;
-}
-
-.teamdiscC20{
-  background-color: #000000ca	;
-  margin:0px ;
-}
-
-
-.teamdiscB1{
-  background-color: #ffffffb2;
-  margin:0px ;
-}
-.teamdiscB2{
-  background-color: #cc0000ca;
-  margin:0px ;
-}
-.teamdiscB3{
-  background-color: #2E2B54ca;
-  margin:0px ;
-}
-
-.teamdiscB4{
-  background-color: #cd1719ca;
-  margin:0px ;
-}
-
-.teamdiscB5{
-  background-color: #ff0000ca;
-  margin:0px ;
-}
-
-.teamdiscB6{
-  background-image: linear-gradient(to right,#dc052cFF,#bf253100);;
-  margin:0px ;
-}
-
-.teamdiscB7{
-  background-color: #ffe600ca;
-  margin:0px ;
-}
-
-.teamdiscB8{
-  background-color: #000000ca;
-  margin:0px ;
-  border-color: #7ab929;
-}
-
-.teamdiscB9{
-  background-color: #1b1a19ca;
-  margin:0px ;
-}
-
-.teamdiscB10{
-  background-color: #e40521ca;
-  margin:0px ;
-}
-
-.teamdiscB11{
-  background-color: #007affca;
-  margin:0px ;
-}
-
-.teamdiscB12{
-  background-color: #00305bca;
-  margin:0px ;
-}
-
-.teamdiscB13{
-  background-color: #dd013fca;
-  margin:0px ;
-}
-
-.teamdiscB14{
-  background-color: #004b9cca;
-  margin:0px ;
-}
-
-.teamdiscB15{
-  background-color: #3d3d3dca;
-  margin:0px ;
-}
-.teamdiscB16{
-  background-color: #e30613ca;
-  margin:0px ;
-}
-.teamdiscB17{
-  background-color: #64b42dca;
-  margin:0px ;
-}
-
-.teamdiscB18{
-  background-color: #007642ca;
-  margin:0px ;
-}
-
-.teamdiscS1{
-  background-color: #ffffffca;
-border:2px solid black;
-  margin:0px ;
-}
-.teamdiscS2{
-  background-color: #c63527ca;
-  margin:0px ;
-}
-.teamdiscS3{
-  background-color:  #b4001dca;
-  margin:0px ;
-}
-
-.teamdiscS4{
-  background-color:  #010532ca;
-  margin:0px ;
-}
-
-.teamdiscS5{
-  background: linear-gradient(to right,#053e8fca,#0164b7ca);
-  margin:0px ;
-}
-
-.teamdiscS6{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS7{
-  background-color: #181733ca;
-  margin:0px ;
-}
-
-.teamdiscS8{
-  background: rgba(2,139,255,1);
-  margin:0px ;
-}
-
-.teamdiscS9{
-  background-color: #c9002bca;
-  margin:0px ;
-}
-
-.teamdiscS10{
-  background-color: #0b2049ca;
-  margin:0px ;
-}
-
-.teamdiscS11{
-  background-color:  #6cace4ca;
-  margin:0px ;
-}
-
-.teamdiscS12{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS13{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS14{
-  background-color:#ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS15{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-.teamdiscS16{
-  background-color: #dc1e1eca;
-  margin:0px ;
-}
-.teamdiscS17{
-  background-color:  #13324fca;
-  margin:0px ;
-}
-
-.teamdiscS18{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS19{
-  background-color: #000000ca;
-  margin:0px ;
-}
-
-.teamdiscS20{
-  background-color: #ffe715ca  ;
-  margin:0px ;
-}
-.teamdiscS1{
-  background-color: #ffffffca;
-border:2px solid black;
-  margin:0px ;
-}
-.teamdiscS2{
-  background-color: #c63527ca;
-  margin:0px ;
-}
-.teamdiscS3{
-  background-color:  #b4001dca;
-  margin:0px ;
-}
-
-.teamdiscS4{
-  background-color:  #010532ca;
-  margin:0px ;
-}
-
-.teamdiscS5{
-  background: linear-gradient(to right,#053e8fca,#0164b7ca);
-  margin:0px ;
-}
-
-.teamdiscS6{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS7{
-  background: linear-gradient(90deg,#cd122dca 0,#154284ca);
-  margin:0px ;
-}
-
-.teamdiscS8{
-  background: rgba(2,139,255,0.7);
-  margin:0px ;
-}
-
-.teamdiscS9{
-  background-color: #c9002bca;
-  margin:0px ;
-}
-
-.teamdiscS10{
-  background-color: #0b2049ca;
-  margin:0px ;
-}
-
-.teamdiscS11{
-  background-color:  #6cace4ca;
-  margin:0px ;
-}
-
-.teamdiscS12{
-  background-color: #009655ca;
-  margin:0px ;
-}
-
-.teamdiscS13{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS14{
-  background-color: #0058b1ca;
-  margin:0px ;
-}
-
-.teamdiscS15{
-  background-color: #63257fca;
-  margin:0px ;
-}
-.teamdiscS16{
-  background-color: #dc1e1eca;
-  margin:0px ;
-}
-.teamdiscS17{
-  background-color:  #13324fca;
-  margin:0px ;
-}
-
-.teamdiscS18{
-  background-color: #ffffffca;
-  margin:0px ;
-}
-
-.teamdiscS19{
-  background-color: #000000ca;
-  margin:0px ;
-}
-
-.teamdiscS20{
-  background-color: #ffe715ca  ;
-  margin:0px ;
-}
-
-
-
-
-
+  text-align:center;
+  border: blanchedalmond 1px solid;
+  }
+  .teams img{
+    width: 80%;
+    height: auto;
+    background: none;
+  
+  }
+  
+  .teamdisc1{
+    background-color: #f61717ca;
+    margin:0px ;
+  }
+  .teamdisc2{
+    background-color: #8c2419ca;
+    margin:0px ;
+  }
+  .teamdisc3{
+    background-color: #0054a6ca;
+    margin:0px ;
+  }
+  
+  .teamdisc4{
+    background-color: #81204cca;
+    margin:0px ;
+  }
+  
+  .teamdisc5{
+    background-color: #001489ca;
+    margin:0px ;
+  }
+  
+  .teamdisc6{
+    background-color: #0055a595;
+    margin:0px ;
+  }
+  
+  .teamdisc7{
+    background-color: #00369cca;
+    margin:0px ;
+  }
+  
+  .teamdisc8{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdisc9{
+    background-color: #AC944Dca;
+    margin:0px ;
+  }
+  
+  .teamdisc10{
+    background-color: #0b56a4ca;
+    margin:0px ;
+  }
+  
+  .teamdisc11{
+    background-color: #e31b23ca;
+    margin:0px ;
+  }
+  
+  .teamdisc12{
+    background-color: #98c5e9ca;
+    margin:0px ;
+  }
+  
+  .teamdisc13{
+    background-color: #c70101ca;
+    margin:0px ;
+  }
+  
+  .teamdisc14{
+    background-color: #231f20ca;
+    margin:0px ;
+  }
+  
+  .teamdisc15{
+    background-color: #e30613ca;
+    margin:0px ;
+  }
+  .teamdisc16{
+    background-color: #1f1f1fca;
+    margin:0px ;
+  }
+  .teamdisc17{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdisc18{
+    background-color: #002f68ca;
+    margin:0px ;
+  }
+  
+  .teamdisc19{
+    background-color: #66192cca;
+    margin:0px ;
+  }
+  
+  .teamdisc20{
+    background-color: #fdb913ca	;
+    margin:0px ;
+  }
+  
+  
+  #legends {
+    border: 1px white solid;
+    width: 80%;
+  }
+  
+  #legends th,#legends td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #legends tr:nth-child(even) {background-color: #c70101ca;}
+  
+  #legends tr:nth-child(odd) {background-color: #6b6b6baa;}
+  
+  #legends img{border-radius:75px;}
+  
+  
+  
+  
+  #legends a:link,#legends a:visited {
+   
+    color:#86f4a9;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #legends a:hover,#legends a:active {
+    background-color: rgb(0, 42, 255);
+  }
+  
+  
+  
+  .teamdiscC1{
+    background-color: #0067b2ca;
+    margin:0px ;
+  }
+  .teamdiscC2{
+    background-color: #bf0e1aca;
+    margin:0px ;
+  }
+  .teamdiscC3{
+    background-color: #2E2B54ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC4{
+    background-color: #ca2330ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC5{
+    background-color: #003355ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC6{
+    background-color: rgba(95, 37, 159,0.7);
+    margin:0px ;
+  }
+  
+  .teamdiscC7{
+    background-color: #ad1918ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC8{
+    background-color: #002f6cca;
+    margin:0px ;
+  }
+  
+  .teamdiscC9{
+    background-color: #001ea0ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC10{
+    background-color: #1a1a1aca;
+    margin:0px ;
+  }
+  
+  .teamdiscC11{
+    background-color: #011f3bca;
+    margin:0px ;
+  }
+  
+  .teamdiscC12{
+    background-color: rgba(213, 0, 0, 0.7);
+    margin:0px ;
+  }
+  
+  .teamdiscC13{
+    background-color: #052f59ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC14{
+    background-color: #1a223eca;
+    margin:0px ;
+  }
+  
+  .teamdiscC15{
+    background-color: #990a2cca;
+    margin:0px ;
+  }
+  .teamdiscC16{
+    background-color: #014896ca;
+    margin:0px ;
+  }
+  .teamdiscC17{
+    background-color: #0fa653ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC18{
+    background-color: #1c1c1eca;
+    margin:0px ;
+  }
+  
+  .teamdiscC19{
+    background-color: #481418ca;
+    margin:0px ;
+  }
+  
+  .teamdiscC20{
+    background-color: #000000ca	;
+    margin:0px ;
+  }
+  
+  
+  .teamdiscB1{
+    background-color: #ffffffb2;
+    margin:0px ;
+  }
+  .teamdiscB2{
+    background-color: #cc0000ca;
+    margin:0px ;
+  }
+  .teamdiscB3{
+    background-color: #2E2B54ca;
+    margin:0px ;
+  }
+  
+  .teamdiscB4{
+    background-color: #cd1719ca;
+    margin:0px ;
+  }
+  
+  .teamdiscB5{
+    background-color: #ff0000ac;
+    margin:0px ;
+  }
+  
+  .teamdiscB6{
+    background-image: linear-gradient(to right,#dc052cFF,#bf253100);;
+    margin:0px ;
+  }
+  
+  .teamdiscB7{
+    background-color: #ffe600ca;
+    margin:0px ;
+  }
+  
+  .teamdiscB8{
+    background-color: #000000ca;
+    margin:0px ;
+    border-color: #7ab929;
+  }
+  
+  .teamdiscB9{
+    background-color: #1b1a19ca;
+    margin:0px ;
+  }
+  
+  .teamdiscB10{
+    background-color: #e40521ca;
+    margin:0px ;
+  }
+  
+  .teamdiscB11{
+    background-color: #007affca;
+    margin:0px ;
+  }
+  
+  .teamdiscB12{
+    background-color: #00305bca;
+    margin:0px ;
+  }
+  
+  .teamdiscB13{
+    background-color: #dd013fca;
+    margin:0px ;
+  }
+  
+  .teamdiscB14{
+    background-color: #004b9cca;
+    margin:0px ;
+  }
+  
+  .teamdiscB15{
+    background-color: #3d3d3dca;
+    margin:0px ;
+  }
+  .teamdiscB16{
+    background-color: #e30613ca;
+    margin:0px ;
+  }
+  .teamdiscB17{
+    background-color: #64b42dca;
+    margin:0px ;
+  }
+  
+  .teamdiscB18{
+    background-color: #007642ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS1{
+    background-color: #ffffffca;
+  border:2px solid black;
+    margin:0px ;
+  }
+  .teamdiscS2{
+    background-color: #c63527ca;
+    margin:0px ;
+  }
+  .teamdiscS3{
+    background-color:  #b4001dca;
+    margin:0px ;
+  }
+  
+  .teamdiscS4{
+    background-color:  #010532ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS5{
+    background: linear-gradient(to right,#053e8fca,#0164b7ca);
+    margin:0px ;
+  }
+  
+  .teamdiscS6{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS7{
+    background-color: #181733ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS8{
+    background: rgba(2,139,255,1);
+    margin:0px ;
+  }
+  
+  .teamdiscS9{
+    background-color: #c9002bca;
+    margin:0px ;
+  }
+  
+  .teamdiscS10{
+    background-color: #0b2049ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS11{
+    background-color:  #6cace4ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS12{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS13{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS14{
+    background-color:#ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS15{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  .teamdiscS16{
+    background-color: #dc1e1eca;
+    margin:0px ;
+  }
+  .teamdiscS17{
+    background-color:  #13324fca;
+    margin:0px ;
+  }
+  
+  .teamdiscS18{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS19{
+    background-color: #000000ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS20{
+    background-color: #ffe715ca  ;
+    margin:0px ;
+  }
+  .teamdiscS1{
+    background-color: #ffffffca;
+  border:2px solid black;
+    margin:0px ;
+  }
+  .teamdiscS2{
+    background-color: #c63527ca;
+    margin:0px ;
+  }
+  .teamdiscS3{
+    background-color:  #b4001dca;
+    margin:0px ;
+  }
+  
+  .teamdiscS4{
+    background-color:  #010532ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS5{
+    background: linear-gradient(to right,#053e8fca,#0164b7ca);
+    margin:0px ;
+  }
+  
+  .teamdiscS6{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS7{
+    background: linear-gradient(90deg,#cd122dca 0,#154284ca);
+    margin:0px ;
+  }
+  
+  .teamdiscS8{
+    background: rgba(2,139,255,0.7);
+    margin:0px ;
+  }
+  
+  .teamdiscS9{
+    background-color: #c9002bca;
+    margin:0px ;
+  }
+  
+  .teamdiscS10{
+    background-color: #0b2049ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS11{
+    background-color:  #6cace4ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS12{
+    background-color: #009655ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS13{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS14{
+    background-color: #0058b1ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS15{
+    background-color: #63257fca;
+    margin:0px ;
+  }
+  .teamdiscS16{
+    background-color: #dc1e1eca;
+    margin:0px ;
+  }
+  .teamdiscS17{
+    background-color:  #13324fca;
+    margin:0px ;
+  }
+  
+  .teamdiscS18{
+    background-color: #ffffffca;
+    margin:0px ;
+  }
+  
+  .teamdiscS19{
+    background-color: #000000ca;
+    margin:0px ;
+  }
+  
+  .teamdiscS20{
+    background-color: #ffe715ca  ;
+    margin:0px ;
+  }
+  
+  
+  
+  
+
+  @media (max-width: 800px) {
+  .flex-container {
+      flex-direction: column;
+      text-align:center;
+     } 
+  }     
