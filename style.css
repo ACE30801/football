@@ -6,7 +6,7 @@ body {
   }
 .maindiv1{
   padding:1px 16px;
-  width: auto;
+  width: 100%;
   height:auto;
   background-repeat: no-repeat;
   background-attachment:fixed;
@@ -695,7 +695,7 @@ body {
     }
     #legends img{
       width: 60px !important;
-      height: 60px;
+      height: 60px !important;
     }
   
   }
