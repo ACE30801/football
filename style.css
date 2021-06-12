@@ -668,6 +668,9 @@ body {
     body{
       font-size: 10px !important;
     }
+    .nav a{
+      font-size: 8px !important;
+    }
     .teams>div{
       width: 45%;
     }    
