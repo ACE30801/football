@@ -54,19 +54,24 @@ body {
   .active5{
     background-image: linear-gradient(to bottom right,#007aff,rgb(37, 40, 42));
   }
-  
+
   .nav {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    width: 100%;
     background-color: #333;
+    position: fixed;
+  }
+  .nav li{
+    border-right:solid 1px #fff ;
+  }
+  .nav li a:hover:not(.active1,.active2,.active3,.active4,.active5) {
+    background-color: #555;
+    color: #E41B18;
   }
   
-  .nav li {
-    float: left;
-  }
   .nav li a, .dbtn {
     display: inline-block;
     color: white;
@@ -74,9 +79,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  .nav li a:hover :not(.active1), .d:hover .dbtn :not(.active1){
-    background-color: #000;
-  }
+  
   li.d {
     display: inline-block;
   }
