@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-size: 2vw;
     color:#fcfcfe;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
   }
 .maindiv1{
   padding:1px 16px;
@@ -255,7 +255,7 @@ body {
   
   #legends {
     border: 1px white solid;
-    width: 80% !important;
+    width: 100% ;
   }
   
   #legends th,#legends td {
@@ -263,10 +263,14 @@ body {
     padding: 8px;
   }
   
-  #legends tr:nth-child(even) {background-color: #c70101ca;}
+  #legends tr:nth-child(even) {
+    background-image: linear-gradient(to right,#c70101ca, #333333ca);
+  }
   
-  #legends tr:nth-child(odd) {background-color: #6b6b6baa;}
-  
+  #legends tr:nth-child(odd) {
+    background-image: linear-gradient(to right,#6b6b6bca, #333333ca);
+  }
+
   #legends img{border-radius: 50%;
 
   }
@@ -696,6 +700,10 @@ body {
     #legends img{
       width: 60px !important;
       height: 60px !important;
+    }
+
+    #legends{
+      width: 80%;
     }
   
   }
