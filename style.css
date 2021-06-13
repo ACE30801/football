@@ -213,7 +213,20 @@ body {
     background-image: linear-gradient(to bottom right, #98c5e9ca,#3297eaca );
     margin:0px ;
   }
-  
+  .teamdisc12:hover{
+    animation-name: city;
+    animation-duration: 100ms;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes city {
+    0%{background-image: linear-gradient(to bottom right, #3297eaca, #98c5e9ca );}
+    25%{background-image: linear-gradient(to top right, #3297eaca,#98c5e9ca);}
+    50%{background-image: linear-gradient(to top left, #3297eaca,#98c5e9ca);}
+    75%{background-image: linear-gradient(to bottom left, #3297eaca,#98c5e9ca);}
+    100%{background-image: linear-gradient(to bottom right, #3297eaca,#98c5e9ca);}
+  }
+
   .teamdisc13{
     background-color: #c70101ca;
     margin:0px ;
@@ -333,6 +346,19 @@ body {
     background-image: linear-gradient(to bottom right, #001ea0ca, #000047ca);
     margin:0px ;
   }
+  .teamdiscC9:hover{
+    animation-name: inter;
+    animation-duration: 200ms;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes inter {
+    0%{background-image: linear-gradient(to bottom right,  #001ea0ca, #000047ca );}
+    25%{background-image: linear-gradient(to top right,    #001ea0ca, #000047ca);}
+    50%{background-image: linear-gradient(to top left,     #001ea0ca, #000047ca);}
+    75%{background-image: linear-gradient(to bottom left,  #001ea0ca, #000047ca);}
+    100%{background-image: linear-gradient(to bottom right,#001ea0ca, #000047ca);}
+  } 
   
   .teamdiscC10{
     background-color: #1a1a1aca;
@@ -415,6 +441,20 @@ body {
     background-image: linear-gradient(to right,#dc052cFF,#bf253100);;
     margin:0px ;
   }
+
+  .teamdiscB6:hover{
+    animation-name: munich;
+    animation-duration: 200ms;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes munich {
+    0%{background-image: linear-gradient(to bottom right,  #3225bfc9, #dc052cFF );}
+    25%{background-image: linear-gradient(to top right,    #3225bfc9, #dc052cFF);}
+    50%{background-image: linear-gradient(to top left,     #3225bfc9, #dc052cFF);}
+    75%{background-image: linear-gradient(to bottom left,  #3225bfc9, #dc052cFF);}
+    100%{background-image: linear-gradient(to bottom right,#3225bfc9, #dc052cFF);}
+  }
   
   .teamdiscB7{
     background-color: #ffe600ca;
@@ -484,6 +524,22 @@ body {
     background-image: linear-gradient(to bottom right, #142473ca, #c63527ca) ;
     margin:0px ;
   }
+
+  
+  .teamdiscS2:hover{
+    animation-name: atleti;
+    animation-duration: 200ms;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes atleti {
+    0%{background-image: linear-gradient(to bottom right,  #142473ca, #c63527ca );}
+    25%{background-image: linear-gradient(to top right,    #142473ca, #c63527ca);}
+    50%{background-image: linear-gradient(to top left,     #142473ca, #c63527ca);}
+    75%{background-image: linear-gradient(to bottom left,  #142473ca, #c63527ca);}
+    100%{background-image: linear-gradient(to bottom right,#142473ca, #c63527ca);}
+  }
+
   .teamdiscS3{
     background-color:  #b4001dca;
     margin:0px ;
